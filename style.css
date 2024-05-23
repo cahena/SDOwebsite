@@ -30,3 +30,26 @@ nav ul li a {
     text-decoration: none;
 }
 
+/*WELCOME*/
+.welcomeSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15%;
+    text-align: center;
+    background-color: #f8f9fa; 
+}
+.largeText {
+    font-size: 12vw; /* Very large text */
+    margin: 0;
+    color:blue;
+}
+.smallText {
+    font-size: 4vw; /* Smaller text */
+    margin: 2%;
+    color: blue; 
+}
+.container {
+
+}
