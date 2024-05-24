@@ -10,8 +10,8 @@ header {
     background-color: white;
     color: blue;
 }
-header img {
-    height: 50px;
+header img { /*SDO letters*/
+    height: 100%; 
 }
 nav ul {
     list-style: none;
@@ -28,6 +28,10 @@ nav ul li :hover {
 nav ul li a {
     color: black;
     text-decoration: none;
+}
+.instaLogo {
+    width: 100%;
+    height: auto; 
 }
 
 /*WELCOME*/
