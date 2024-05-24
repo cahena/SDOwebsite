@@ -13,6 +13,7 @@
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">NME</a></li>
+                <li><a href="#">Resources</a></li>
                 <li><a href="#">Match</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#"><img src="logos_dir/instaLogo.png" alt="Insta" class="instaLogo"></a></li>
@@ -21,35 +22,43 @@
     </header>
 
     <!--WELCOME-->
-    <section> 
-        <section class="welcomeSection">
-            <h1 class="largeText">WELCOME</h1>
-            <p class="smallText">Sigma Delta Omega</p>
-        </section>
-            <div class="container">
-                <div class="wrapper">
-                    <img src="welcomeImage.jpg" alt="Welcome Image">
-                    <!--add more images later-->
-                </div>
+    <section class="welcomeSection">
+        <h1 class="largeText">WELCOME</h1>
+        <p class="smallText">Sigma Delta Omega</p>
+        <div class="container">
+            <div class="wrapper">
+                <img src="welcomeImage.png" alt="Welcome Image">
+                <!--add more images later-->
             </div>
+        </div>
     </section>
 
     <!--NME Textbook-->
-    <section class="sectionTitle">New Member Education</section>
-
     <section>
-        <p id="textbookLink">Click Here To Download Textbook</p>
-        <section class="textbookSection">
-            <p>insert pdf here.</p>
-        </section>
+        <h2 class="sectionTitle">New Member Education</h2>
+        <p id="textbookLink"><a href="resources_dir/nmeHandbook.pdf" target="_blank">Click Here To Download Textbook</a></p>
+        <div class="textbookSection">
+            <div style="height: 500px; overflow: auto;">
+                <iframe src="resources_dir/nmeHandbook.pdf" height="100%" width="80%"></iframe>
+            </div>
+        </div>
     </section>
 
     <!--Contact Info-->
-    <section class="sectionTitle">Contact Information</section>
+    <section>
+        <h2 class="sectionTitle">Contact Information</h2>
+        <div class="contactSection">
+            <img src="contactImage.png" alt="Contact Image">
+            <p>Contact us at: <br> Email: contact@sigma.com <br> Phone: maybe idk <br> Link to All Officer Contacts</p>
+        </div>
+    </section>
 
-    <section class="contact-section">
-        <img src="contactImage.jpg" alt="Contact Image">
-        <p>Contact NME chair at: <br> Email: sdonewmembered@gmail.com <br> Phone: maybe idk</p>
+    <!--Closing-->
+    <section>
+        <h2 class="closingTitle">Peas, Pods, Sisterhood, Science.</h2>
+        <div>
+            <p>say stuff here.</p>
+        </div>
     </section>
 </body>
 </html>
