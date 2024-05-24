@@ -30,7 +30,7 @@ nav ul li a {
     text-decoration: none;
 }
 .instaLogo {
-    width: 100%;
+    width: 30px;
     height: auto; 
 }
 
@@ -56,4 +56,9 @@ nav ul li a {
 }
 .container {
 
+}
+
+/*NME Textbook*/
+.textbookSection {
+    text-align: center;
 }
